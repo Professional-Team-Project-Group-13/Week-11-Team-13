@@ -1,0 +1,13 @@
+# --- core app ---
+streamlit>=1.30
+fpdf2>=2.7
+pandas>=2.0
+numpy>=1.24
+
+# --- real BioBERT pipeline (required for live mode) ---
+transformers>=4.40
+torch>=2.0
+faiss-cpu>=1.7
+lime>=0.2
+shap>=0.44
+scikit-learn>=1.3
